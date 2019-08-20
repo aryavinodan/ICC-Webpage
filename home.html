@@ -1,0 +1,238 @@
+<html>
+
+<head>
+    <style>
+        .bg {
+            background-image: url("images (3).jpg");
+            width: 100%;
+            height: 50%;
+            box-shadow: 5px 5px 5px rgb(158, 16, 104);
+        }
+        
+        .menu ul li {
+            display: inline-block;
+            padding: 30px;
+            color: darkviolet;
+            font-family: cursive;
+        }
+        
+        .menu ul a {
+            text-decoration: none;
+        }
+        
+        .menu ul li:hover {
+            box-shadow: 5px 5px 8px grey, -5px -5px 8px grey;
+        }
+        
+        .menu {
+            width: 100%;
+        }
+        
+        .mask {
+            background-image: url("images (3).jpg");
+        }
+        
+        .mask img {
+            transition: 2s;
+            border-radius: 70px;
+            transform: scale(0, 0);
+        }
+        
+        .mask:hover img {
+            transform: scale(1.2, 1.2);
+            box-shadow: 5px 5px 5px grey;
+        }
+        
+        .p {
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        
+        .new {
+            transition: 2s;
+        }
+        
+        .new:hover {
+            transform: rotateX(45deg);
+        }
+        
+        .upcom .in {
+            background-color: rgb(185, 153, 160);
+            margin: 3%;
+            border-radius: 50px;
+        }
+        
+        .upcom .in img {
+            width: 40%;
+            height: 300px;
+            margin: 50px;
+            transition: 1s;
+            box-shadow: 5px 5px 5px grey;
+        }
+        
+        .upcom .in img:hover {
+            transform: scale(1.1, 1.1);
+        }
+        
+        .gallery img {
+            display: inline-block;
+            width: 20%;
+            margin: 2%;
+            height: 30%;
+            transition: 1.5s
+        }
+        
+        .gallery img:hover {
+            box-shadow: 10px 10px 10px grey;
+            border-radius: 30px;
+        }
+        
+        .footer {
+            background-image: url("images (3).jpg");
+            background-size: 100% 100%;
+            width: 100%;
+            height: 300px;
+        }
+        
+        .footer .im img {
+            display: inline-block;
+            padding: 50px;
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+            margin-top: -30px;
+        }
+        
+        @media (max-width:600px) {
+            .gallery img {
+                width: 90%;
+            }
+            .upcom .in img {
+                width: 70%;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="bg">
+        <center>
+            <img src="download.png" style="width:25%; height: 80%; margin-top: 45px; box-shadow: 5px 5px 5px gray;">
+        </center>
+    </div>
+    <div class="menu">
+        <center>
+            <ul>
+                <li>
+                    <a href="#score">Score Card</a>
+                </li>
+                <li>
+                    <a href="#upcom">
+                    Upcomming Matches
+                </a>
+                </li>
+                <li>
+                    <a href="#mask">Match Schedule</a>
+                </li>
+
+                <li>
+                    <a href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </center>
+    </div>
+    <div id="score">
+        <center>
+            <h1 style="font-family:cursive; background-color:grey; color: white; ">SCORE CARD</h1>
+            <img src="Capture1.PNG " style="box-shadow:5px 5px 5px grey; border-radius:50px; width:90%; margin-left:3%; margin-right:3%" class="new ">
+        </center>
+    </div>
+
+    <div class="mask " id="mask">
+        <div class="p ">
+            <center>
+                <h1 style="font-family:cursive; color: white; ">SCHEDULE</h1>
+                <img src="Capture.PNG " style="height:500px; ">
+            </center>
+        </div>
+    </div>
+    <div class="upcom " id="upcom">
+        <center>
+            <h1 style="font-family:cursive; background-color:grey; color: white; ">UPCOMMING MATCHES</h1>
+            <div class="in ">
+                <img src="1.PNG ">
+                <img src="10.PNG ">
+            </div>
+            <div class="in ">
+                <img src="11.PNG ">
+                <img src="2.PNG ">
+
+            </div>
+            <div class="in ">
+                <img src="3.PNG ">
+                <img src="12.PNG ">
+            </div>
+            <div class="in ">
+                <img src="13.PNG ">
+                <img src="4.PNG ">
+
+            </div>
+            <div class="in ">
+                <img src="5.PNG ">
+                <img src="14.PNG ">
+            </div>
+            <div class="in ">
+                <img src="6.PNG ">
+
+                <img src="7.PNG ">
+
+                <img src="8.PNG ">
+            </div>
+        </center>
+    </div>
+    <div class="gallery " id="gallery">
+        <marquee direction="right " style="color:rgb(67, 35, 143); font-family: cursive; font-size: 50px; ">
+            ICC WORLD CUP 2019
+        </marquee>
+        <img src="20.jpg ">
+        <img src="21.jpg ">
+        <img src="22.jpg ">
+        <img src="23.jpg ">
+        <img src="24.jpg ">
+        <img src="25.jpg ">
+        <img src="26.jpg ">
+        <img src="27.jpg ">
+        <img src="28.jpg ">
+        <img src="29.jpg ">
+        <img src="30.jpg ">
+        <img src="31.jpg ">
+        <img src="32.jpg ">
+        <img src="33.jpg ">
+        <img src="34.jpg ">
+        <img src="35.jpg ">
+        <img src="36.jpg ">
+        <img src="37.jpg ">
+        <img src="38.PNG ">
+        <img src="14.PNG ">
+    </div>
+    <center>
+        <video src="66504097_2509266912441161_961984441991381726_n.mp4" autoplay style="width:70%; box-shadow: 5px 5px 5px grey;"></video></center>
+    <div class="footer">
+        <h2 align="center" style="padding:50px; margin-top: 100px;">
+            <font face="Arial" color="white">Follow ICC on social</font>
+        </h2>
+        <center>
+            <div class="im">
+                <a href="https://www.facebook.com/icc/">
+                    <img src="50.png"></a>
+                <a href="https://twitter.com/ICC?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                    <img src="51.png"></a>
+                <a href="https://www.youtube.com/channel/UCt2JXOLNxqry7B_4rRZME3Q">
+                    <img src="52.png"></a>
+
+            </div>
+        </center>
+    </div>
+</body>
+
+</html>
